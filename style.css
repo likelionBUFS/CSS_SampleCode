@@ -10,10 +10,18 @@ header span {
     font-weight:bolder;
 }
 
+.wordSpace10{
+    word-spacing: 10px;
+}
+
 .intro .preview {
     font-size:12px;
     font-weight:bolder;
     color:blue;
+}
+
+.lineHeight30{
+    line-height: 30px;
 }
 
 a{
