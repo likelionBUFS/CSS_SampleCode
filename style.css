@@ -1,41 +1,47 @@
 body{
-    background-image:url('./images/gradient_bg.png');
-    background-repeat:repeat-x;
-
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width:1000px;
+    background-color:blueviolet;
 }
 
-header span {
-    font-size:16px;
-    font-weight:bolder;
+.bigSquare{
+    width:500px;
+    height:500px;
+
+    background-color:rebeccapurple;
+
+    margin: 300px 250px;
+
+    border: black solid 2px;
 }
 
-.wordSpace10{
-    word-spacing: 10px;
+.smallSquare{
+    width:100px;
+    height:100px;
+    background-color:aqua;
+
+    margin-left:200px;
+    margin-top:50px;
+
+    border:1px solid white;
 }
 
-.intro .preview {
-    font-size:12px;
-    font-weight:bolder;
-    color:blue;
+.middleSquare{
+    width:300px;
+    height:100px;
+    background-color:palegoldenrod;
+    border: 1px dotted white;
+
+    margin-left:100px;
+    margin-top:50px;
 }
 
-.lineHeight30{
-    line-height: 30px;
-}
+.bottomSquare{
+    width:100px;
+    height:100px;
+    background-color:palevioletred;
 
-a{
-    text-decoration: none;
-    color:violet;
-    font-weight:bolder;
-}
+    margin-left:200px;
+    margin-top:50px;
 
-li {
-    letter-spacing:3px;
-}
-
-.lecture .olTitle {
-    font-size:18px;
-    font-weight:bolder;
-    text-indent:10px;
+    border:white 1px solid;
 }
