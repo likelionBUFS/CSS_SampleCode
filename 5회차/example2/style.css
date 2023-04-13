@@ -1,22 +1,26 @@
 article {
-  background: black;
+  border-radius: 30px;
+  padding: 20px;
+  background: #eee;
+  border: 3px solid #ddd;
   width: 350px;
   height: 300px;
 }
 
 div {
+  border-radius: 50%;
   width: 50px;
   height: 50px;
 }
 
 .blue {
-  background: blue;
+  background: #00a1ff;
 }
 .green {
-  background: green;
+  background: #00d0a9;
 }
 .yellow {
-  background: yellow;
+  background: #fbfb5c;
 }
 
 .right_side,
