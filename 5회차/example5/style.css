@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 10px;
+  background: #000000;
+}
+
+div[class^="row"] {
+}
+
+input {
+  text-align: right;
+  background: #0000;
+  border: none;
+  color: #ffff;
+  font-size: 55px;
+}
+
+button {
+  border-radius: 50%;
+  font-size: 30px;
+  border: none;
+  background: #c4c4c4;
+  color: #fff;
+  cursor: pointer;
+  transition: opacity 0.4s;
+}
+
+.row-6 button:first-child {
+  border-radius: 60px;
+}
+
+.number {
+  background: #333333;
+}
+
+.calc,
+.result-btn {
+  background: #fe9f06;
+  color: #fff;
+}
+
+.number:active,
+.reset-btn:active,
+.etc-btn:active,
+.percentage-btn:active,
+.result-btn:active {
+  opacity: 0.6;
+}
+
+.calc:focus {
+  background: #fff;
+  color: #fe9f06;
+}

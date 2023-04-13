@@ -1,34 +1,24 @@
-body {
-  background-color: rgb(49, 50, 57);
+.container {
+  padding: 15px;
+  border: 3px solid black;
 }
 
-.outer {
-  width: 200px;
+.item {
   padding: 10px;
-  background-color: rgb(25, 32, 179);
-  border: 5px solid black;
-  border-radius: 50px;
 }
 
-.inner {
-  height: 50px;
-  background-color: rgb(229, 74, 74);
-  border: 5px solid black;
-  border-radius: 20px;
+.item1 {
+  background-color: #555;
 }
-
-.inner:not(:last-child) {
-  margin-bottom: 10px;
+.item2 {
+  background-color: #777;
 }
-
-.small {
-  width: 50px;
+.item3 {
+  background-color: #888;
 }
-
-.long {
-  width: 150px;
+.item4 {
+  background-color: #aaa;
 }
-
-.dashed {
-  border-style: dashed;
+.item5 {
+  background-color: #ddd;
 }
