@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            margin:0;
+            padding:0;
+
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        a.write_button{
+            width:200px;
+            height:50px;
+            border-radius:5px;
+
+            background-color: whitesmoke;
+            color:black;
+
+            display:flex;
+            justify-content: center;
+            align-items: center;
+
+            position:relative;
+
+            cursor:pointer;
+        }
+
+        a.write_button div.background_effect{
+            position: absolute;
+            width: 0%;
+            height: 100%;
+
+            border-radius: 5px;
+
+            background-color: dodgerblue;
+            transition: all .5s;
+        }
+
+       a.write_button span{
+            display:inline-block;
+            z-index:2;
+            transition: all .5s;
+        }
+
+        a.write_button:hover div.background_effect{
+            width:100%;
+        }
+
+        a.write_button:hover span{
+            color:white;
+            font-weight:bolder;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <a class="write_button">
+        <div class="background_effect"></div>
+        <span>글쓰기(div)</span>
+    </a>
+</body>
+</html>
