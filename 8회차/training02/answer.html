@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body{
+            width:100%;
+            height:100vh;
+            margin:0;
+            padding:0;
+
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div{
+            position:absolute;
+            top:20px;
+            display:flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+        } 
+
+        div span{
+            display:inline-block;
+            width:200px;
+            height:30px;
+            
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div span.trigger {
+            background-color: paleturquoise;
+        }
+
+        div:hover span.trigger{
+            background-color: rgb(126, 171, 171);
+        }
+        div:hover span.child{
+            display:flex;
+        }
+
+        div span.child{
+            background-color: peachpuff;
+            margin-top:3px;
+            display:none;
+        }
+
+        div span.child:nth-child(1) {
+            margin-top:10px;
+        }
+    </style>
+    <title>Answer02</title>
+</head>
+<body>
+    <div>
+        <span class="trigger">Menu</span>
+        <span class="child">Board</span>
+        <span class="child">Announcement</span>
+        <span class="child">Events</span>
+        <span class="child">Board</span>
+    </div>
+</body>
